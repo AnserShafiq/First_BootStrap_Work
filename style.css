@@ -1,0 +1,191 @@
+.navbar {
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n)>a{
+    color:white !important;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n)>a:hover{
+    color: #00bf77 !important;
+}
+.btn{
+    border-radius: 20px;
+}
+.btn-success{
+    color:white !important;
+}
+.btn-success:hover{
+    background-color: white;
+    color: #00bf77 !important;;
+}
+.mid{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid video{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    object-fit:cover;
+    pointer-events:none;
+}
+.mid .hero{
+    position:relative;
+}
+.mid .hero p{
+    width:100%;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    padding: 1.1rem;
+}
+
+.about{
+    background-color: #000;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color:#00bf77;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.about .text h2{
+    color:#f7f4f2;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.about .text p{
+    color:#f7f4f2;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.about-2{
+    background-color: #ffffff;
+}
+.about-2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about-2 .text h6{
+    color:#00bf77;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.about-2 .text h2{
+    color: #000;;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.about-2 .text p{
+    color:#000;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.services{
+    background-color: #000;
+}
+
+.services .one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding:2rem 1.5rem;
+    border-radius: 10px;
+}
+
+.invitation{
+    background-color: #ffffff;    
+}
+.invitation .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.invitation .text h6{
+    color:#00bf77;
+    font-size:1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.invitation .text h2{
+    color:#000;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.invitation .text p{
+    color:#000;
+    font-size:1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.invitation .text a{
+    background-color: #000;
+}
+.invitation .text a:hover{
+    color: #000 !important;
+    background-color:#ffffff !important;
+}
+
+.end{
+    background-color: #000;
+}
+.end .text 
+,.end .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0.2rem auto auto auto;
+}
+.end .text h3,
+.end .list h3{
+    color:#f7f4f2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.end .text h4
+,.end .list h4{
+    color:#f7f4f2;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
